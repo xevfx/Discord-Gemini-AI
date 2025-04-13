@@ -13,7 +13,7 @@ tracemalloc.start()
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-#token = os.getenv("token")
+
 gemini_api_key = "key"
 
 genai.configure(api_key=gemini_api_key)
